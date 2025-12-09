@@ -42,3 +42,61 @@ This dashboard provides analysis of:
    - Top revenue-generating products
 
 4. **Store Operations**
+   - Store age (Business Age)
+   - Store count
+   - Sales contribution by store and city
+
+5. **Power BI Techniques Used**
+   - Star schema data modeling  
+   - DAX measures (YOY, YTD, MTD, ratios, margins)
+   - Power Query data transformation
+   - Conditional formatting and KPI design
+   - Decomposition Tree for detailed analysis
+
+---
+
+## Technologies Used
+
+- Power BI Desktop  
+- DAX (Data Analysis Expressions)  
+- Power Query  
+- Star Schema Data Modeling  
+- GitHub for documentation and version control  
+
+---
+
+## Included Files
+
+- `toy.pbix` – Main Power BI dashboard  
+- `toy.pdf` – Exported dashboard report  
+- `screenshots/` – Dashboard preview images  
+- Additional PNG preview files for individual pages  
+
+---
+
+## Dashboard Preview
+
+Screenshots are available in the **screenshots** folder.
+
+---
+
+## Data Model
+
+The project uses a Star Schema structure:
+
+- Fact table: **Sales**  
+- Dimension tables: **Products**, **Stores**, **Inventory**  
+
+This structure enables clean relationships and efficient DAX performance.
+
+---
+
+## Author
+
+Nima Shahverdi  
+Business Intelligence Analyst  
+LinkedIn: (add your link here)
+
+---
+
+If you found this project useful, feel free to star the repository.
